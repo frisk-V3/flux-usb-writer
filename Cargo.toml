@@ -1,0 +1,13 @@
+[package]
+name = "flux-usb-writer"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "ISO to USB writer with progress and device listing."
+repository = "https://example.com/flux-usb-writer"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+indicatif = "0.17"
+humansize = "2"
